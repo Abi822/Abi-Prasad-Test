@@ -42,21 +42,21 @@ namespace test_1
             Console.WriteLine("Bird object created amd data loaded...\n"); 
             Console.WriteLine("PLEASE UPDATE THE BIRD DATA\n");
             Console.Write("Enter Bird name: "); //Enter in users imput
-            string name = Console.ReadLine();
+            string nameunknown = Console.ReadLine();
 
             Console.Write("Enter Species: ");
-            string species = Console.ReadLine();
+            string speciesunknown = Console.ReadLine();
 
             Console.Write("Enter sex of Bird: ");
-            string sex = Console.ReadLine();
+            string sexunknown = Console.ReadLine();
 
             Console.Write("Enter weight of Bird: ");
-            string wight = Console.ReadLine();
+            string wightunknown = Console.ReadLine();
 
             Console.Write("Enter Band number: ");
-            string bandno = Console.ReadLine();
+            string bandnounknown = Console.ReadLine();
 
-            User say = new User(name, species, sex, wight, bandno);
+            User say = new User(nameunknown, speciesunknown, sexunknown, wightunknown, bandnounknown);
             Console.WriteLine(say.DisplayBird()); //Printing user imput 
             
 
